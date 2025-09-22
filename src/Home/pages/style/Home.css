@@ -1,0 +1,70 @@
+.gradient-box {
+    background-image: linear-gradient(to bottom, #3226DE, #BFE300);
+    height: 68px;
+}
+
+.section-home-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.home-content {
+    position: absolute;
+    width: 50%;
+    margin: 101px 0 0 44px;
+
+    background: #3226de6e;
+    padding: 15px 15px 20px;
+    border-radius: 10px;
+
+    backdrop-filter: blur(2px);
+}
+
+.home-content h1 {
+    font-size: 55px;
+    font-family: 'Avalors', sans-serif;
+    color: var(--color-text-light);
+
+    letter-spacing: 9px;
+    width: 90%;
+}
+
+.home-content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--color-text-light);
+
+    margin: 44px 0 34px;
+}
+
+.button-content {
+    height: 45px;
+    width: 135px;
+    align-self: center;
+
+    border-radius: 50px;
+    border: none;
+    background: var(--color-secondary);
+
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-text-light);
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.button-content:hover {
+    transform: scale(1.1);
+}
+
+.img-home {
+    width: 62%;
+}

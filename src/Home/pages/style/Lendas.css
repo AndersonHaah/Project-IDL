@@ -1,0 +1,124 @@
+.legend-container-primary {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)),
+        url('../img/bg-img.jpg') no-repeat center center;
+
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-legends {
+    height: 335px;
+    width: 620px;
+    box-shadow: 1px 1px 5px var(--color-secondary);
+
+    border-radius: 3px;
+    margin-left: 44px;
+}
+
+.legends-infos {
+    width: 50%;
+    color: var(--color-text-light);
+    background-color: #49216b70;
+
+    backdrop-filter: blur(5px);
+    padding: 20px 10px;
+    margin: 0 44px;
+
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px var(--color-secondary);
+}
+
+.legends-infos h1 {
+    font-family: 'Avalors', sans-serif;
+    font-size: 44px;
+}
+
+.legends-infos h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.legends-infos p {
+    margin-top: 44px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.legend-container-secondary {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#000000cc, #000000de),
+        url('../img/bg-legends-secondary.jpg') no-repeat center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+}
+
+.bord-legend img {
+    width: 90%;
+
+}
+
+.legend-infos {
+    width: 50%;
+    color: var(--color-text-light);
+    background: #49216b2c;
+
+    padding: 25px;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 5px var(--color-secondary);
+}
+
+.legend-infos h1 {
+    font-size: 52px;
+    font-family: 'Avalors', sans-serif;
+}
+
+.legend-infos p {
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 40px;
+
+    letter-spacing: 2px;
+}
+
+.swiper-pagination-bullet {
+
+    background: #3226de27;
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+    margin: 0 6px !important;
+    opacity: 0.5;
+
+    transition: all 0.9s ease;
+    border: 1px solid #ffffff2a;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--color-secondary);
+    box-shadow: 0 0 10px var(--color-primary);
+    transform: scale(1.2);
+
+    opacity: 1;
+    border: none;
+}
+
+.rensga:hover {
+    text-decoration: line-through;
+    font-weight: 100;
+}

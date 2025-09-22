@@ -1,0 +1,77 @@
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+
+    background: var(--color-primary);
+    height: 75px;
+    position: sticky;
+
+    width: 100%;
+}
+
+.header-logo {
+    width: 150px;
+    position: absolute;
+    top: 2px;
+
+    z-index: 200;
+}
+
+.nav-header {
+    height: 50px;
+}
+
+.link-header {
+    margin-right: 35px;
+    color: var(--color-text-light);
+    text-decoration: none;
+
+    height: 100%;
+    display: inline-block;
+    padding: 0 2px 0 2px ;
+
+    transition: all 0.5s ease;
+    letter-spacing: 2px;
+}
+
+.link-header:hover {
+    background-image: linear-gradient(to bottom, #49216b73, #49216b00);
+    backdrop-filter: blur(50px);
+
+}
+
+.link-header:active {
+    border-bottom: 1px solid var(--color-text-light);
+}
+
+.button-header {
+    height: 35px;
+    width: 35px;
+    align-self: center;
+
+    border-radius: 50px;
+    border: none;
+    background: var(--color-secondary);
+
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-text-light);
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.button-header:hover {
+    width: 131px;
+}
+
+.button-header:hover::after {
+    content: "Entrar";
+    margin-left: 15px;
+    overflow: hidden;
+}
