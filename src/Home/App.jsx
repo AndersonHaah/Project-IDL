@@ -2,6 +2,7 @@ import './App.css'
 import Header from './pages/header'
 import Home from './pages/Home'
 import Lendas from './pages/Lendas'
+import Championships from './pages/Championships'
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <div>
       <Header />
       <Home />
-      <Lendas />
+      {/* <Lendas />     */}
+      <Championships />
     </div>
   )
 }

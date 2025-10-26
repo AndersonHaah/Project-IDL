@@ -1,0 +1,31 @@
+.container-championships {
+    height: 100vh;
+    background: linear-gradient(#000000d7, #000000b4),
+        url('../img/bg-championship.jpg') no-repeat center center;
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.container-championships img {
+    width: 60%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.container-championships img:hover {
+    transform: scale(1.3);
+}
+
+.cebolao {
+    display: flex;
+    justify-content: center;
+}
+
+.kings-lendas {
+    display: flex;
+    justify-content: center;
+}
